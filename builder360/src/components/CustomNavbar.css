@@ -1,0 +1,15 @@
+nav.navbar,
+.navbar-default {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+  text-decoration: underline;
+}
+.navbar-brand {
+  margin: 0px auto !important;
+}
