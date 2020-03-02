@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url(/assets/bg.jpg);
+  height: 700px;
+  padding: 13rem 2rem !important;
+  margin-bottom: 10px !important;
+}
