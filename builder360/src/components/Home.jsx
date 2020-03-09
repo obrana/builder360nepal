@@ -79,6 +79,7 @@ export default class Home extends Component {
             </Tab.Container>
           </div>
         </div>
+        
       </main>
     );
   }
