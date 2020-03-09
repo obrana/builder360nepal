@@ -10,15 +10,11 @@ class App extends Component {
     return (
       <Router>
         <div>
-         
-
-          
           <Route exact path="/" component={Cover} />
-          
-          <Route exact path="/" component={Home} />
+          <Navbar />
 
+          <Route exact path="/home" component={Home} />
         </div>
-        {/* <Navbar /> */}
       </Router>
     );
   }

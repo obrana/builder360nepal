@@ -113,7 +113,9 @@ export default class Home extends Component {
                 </h4>
 
                 <Tab.Pane eventKey="first">
-                  <h5>A. The Town House</h5>
+                  <h5>
+                    <span>A.</span> The Town House
+                  </h5>
                   <p>
                     The Town House is a very popular form of housing in
                     Denmark.This is a well executed one and a half or two
@@ -122,7 +124,9 @@ export default class Home extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <h5>A. The Compact House</h5>
+                  <h5>
+                    <span>B.</span> The Compact House
+                  </h5>
                   <p>
                     Rectangular in shape, the Compact House has very beautiful
                     features. The geometry of this kind of housing is very
@@ -130,7 +134,9 @@ export default class Home extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <h5>A. The Angle House</h5>
+                  <h5>
+                    <span>C.</span> The Angle House
+                  </h5>
                   <p>
                     The Angle House is a great choice for people who love to
                     separate personal and social space. The bedrooms and living
@@ -139,7 +145,9 @@ export default class Home extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
-                  <h5>A. The Funkis House</h5>
+                  <h5>
+                    <span>D.</span> The Funkis House
+                  </h5>
                   <p>
                     The Funkis House is quite similar in layout to the classic
                     Nepalese homes. It has a flat roof and normally built in

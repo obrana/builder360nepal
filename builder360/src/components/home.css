@@ -83,5 +83,14 @@
 .buildingtabs.nav-pills .nav-link {
   border-radius: 0.25rem;
 }
-
+.buildingtabs .tab-content {
+  font-size: 15px !important;
+  padding: 20px 135px 20px 20px;
+}
+.smallHead {
+  margin: 30px 0px 50px;
+}
+.buildingtabs h5 span {
+  color: #fd5a32 !important;
+}
 /* Building Types */
