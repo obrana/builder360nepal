@@ -1,6 +1,12 @@
 nav.navbar,
 .navbar-default {
   background: rgba(255, 255, 255, 0.95) !important;
+  position: fixed;
+  top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  border-radius: 0px;
+  transition: all 0.2s;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #000;
@@ -12,4 +18,7 @@ nav.navbar,
 }
 .navbar-brand {
   margin: 0px auto !important;
+}
+.navbar-brand img {
+  height: 70px;
 }

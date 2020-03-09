@@ -1,6 +1,22 @@
 .jumbotron {
   background-image: url(/assets/bg.jpg);
-  height: 700px;
   padding: 13rem 2rem !important;
   margin-bottom: 10px !important;
+  color: #fff;
+  text-transform: uppercase;
+  height: auto;
+}
+.introtext {
+  width: 450px;
+  border-left: 2px solid #fd5a32;
+  padding-left: 20px;
+}
+.sectionFirst {
+  background-image: url(/assets/bg.jpg);
+  height: auto;
+}
+.sectionRight {
+  background: rgba(114, 112, 112, 0.71);
+  color: #fff;
+  padding: 20px;
 }
