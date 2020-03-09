@@ -1,0 +1,43 @@
+.pic {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+  }
+  
+  .current {
+    width: 100%;
+	float: left;
+	position: relative;
+
+
+  }
+  
+  .current.move {
+    left: 0;
+    transition: all 4s ease;
+  }
+  
+  .next {
+    transition: all 4s ease;
+  }
+  
+  .next.move {
+ 
+    transition: all 4s ease;
+  }
+  
+  .pic-wrapper {
+    background: lightgray;
+    left: -100px;
+    position: absolute;
+    
+  }
+  
+  .mask {
+	
+	height: 100%;
+	width: 200%;
+	overflow:hidden;
+  }
