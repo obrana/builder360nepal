@@ -11,7 +11,7 @@ import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 import "./home.css";
 
 export default class Home extends Component {
-  render() {
+  render() { 
     return (
       <main>
         <Jumbotron>
