@@ -14,7 +14,7 @@ import Form from "react-bootstrap/Form";
 import "./home.css";
 
 export default class Home extends Component {
-  render() {
+  render() { 
     return (
       <main>
         <Container>
