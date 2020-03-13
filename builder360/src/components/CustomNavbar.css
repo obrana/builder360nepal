@@ -7,6 +7,10 @@ nav.navbar,
   width: 100%;
   border-radius: 0px;
   transition: all 0.2s;
+  z-index: 999;
+  border-bottom: 1px solid #eee;
+  right: 0px;
+  padding: 0.5% 9%;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #000;
