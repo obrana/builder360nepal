@@ -40,58 +40,77 @@ import "./cover.css";
 const pics = ["assets/cover1.jpg", "assets/cover2.jpg", "assets/cover3.jpg"];
 
 export default class Cover extends Component {
-  constructor(props) {
-    super(props);
-    const idxStart = 0;
-    this.state = {
-      index: idxStart,
-      next: this.getNextIndex(idxStart),
-      move: false
-    };
+ 
+  state = {
+    image: undefined,
+    loading: true,
   }
+  
+  timeline = new TimelineMax()
+  imageWrapper = React.createRef()
+  imageElement = React.createRef()
 
-  getNextIndex(idx) {
-    if (idx >= pics.length - 1) {
-      return 0;
-    }
-    return idx + 1;
-  }
-
-  setIndexes(idx) {
-    this.setState({
-      index: idx,
-      next: this.getNextIndex(idx)
-    });
-  }
   componentDidMount() {
-    setInterval(() => {
-      // on
-      this.setState({
-        move: true
-      });
-      // off
-      setTimeout(() => {
-        this.setState({
-          move: false
-        });
-        this.setIndexes(this.getNextIndex(this.state.index));
-      }, 500); // same delay as in the css transition here
-    }, 2000);
+   this.getRandomImage();
   }
-  render() {
-    const move = this.state.move ? "move" : "";
-    if (this.state.move) {
+  
+  startLoading = () => {
+   this.timeline.clear();
+   
+   this.timeline.to(this.imageWrapper.current, 0.4, { 
+     css: { scale: 0.8, rotation: '0deg' }, 
+     onComplete: this.getRandomImage,
+   }).play();
+  }
+ 
+  getRandomImage = () => {
+    const image = new Image();
+    this.setState({ loading: true });
+    
+    image.onload = () => {
+      this.timeline.to(this.imageElement.current, 0.4, { css: { opacity: 0 }, onComplete: () => this.setImage(image) });
     }
+    
+    image.src = `https://source.unsplash.com/random/1920x1080&cb=${Date.now()}`;
+  }
+  
+  setImage = (image) => {
+   this.setState({ loading: false, image: image.src }, this.showImage);
+  }
+  
+  showImage = () => {
+    const randomRotation = Math.round(Math.random() * 3) - 2;
+   
+    this.timeline.to(this.imageElement.current, 0.3, { css: { opacity: 1 }}).play();
+    this.timeline.to(this.imageWrapper.current, 0.3, { css: { scale: 1 }}, 0).play();
+   
+    this.timeline.to(this.imageWrapper.current, 16, { css: { scale: 1.2, rotation: `${randomRotation}deg` }, onComplete: this.startLoading }).play();
+  }
+  
+  render() {
     return (
-      <div className="mask">
-        <div className="pic-wrapper">
-          <div className={`current pic ${move}`}>
-            <img src={pics[this.state.index]} alt="" />
-          </div>
-          <div className={`next pic ${move}`}>
-            <img src={pics[this.state.next]} alt="" />
-          </div>
+      <div className="wrapper">
+        
+        <div className="copyright">
+          <p>Pedro Lima © 2019 - Images by Unsplash</p>
         </div>
+        
+        {this.state.loading &&
+            <div className="spinner">
+              <div className="double-bounce1"></div>
+              <div className="double-bounce2"></div>
+            </div>
+        }
+        
+        <div className="slides__wrapper">
+          
+          <div className="slide" ref={this.imageWrapper}>
+            <img ref={this.imageElement} src={this.state.image} />
+          </div>
+        
+        </div>
+      
+
       </div>
     );
   }
