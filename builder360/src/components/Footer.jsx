@@ -19,7 +19,7 @@ class Footer extends Component {
               <p>contact@buildr360.com</p>
             </div>
             <div className="col-6"></div>
-            <div className="col-3">
+            <div className="col-3 footerlink">
               <h4>Follow Us</h4>
               <Nav>
                 <Nav.Link href="#">
