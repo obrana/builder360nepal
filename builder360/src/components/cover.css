@@ -23,7 +23,6 @@
     width: 100%;
   }
   
- 
   .react-slideshow-container + div.indicators {
     display: none;
     flex-wrap: wrap;
