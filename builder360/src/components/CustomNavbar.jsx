@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Nav, Image, Container } from "react-bootstrap";
 
 import "./CustomNavbar.css";
-import {Link} from "react-scroll";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 export default class CustomNavbar extends Component {
   render() {
@@ -17,7 +17,7 @@ export default class CustomNavbar extends Component {
               <Link to="projects" smooth={true} duration={1000}>Projects</Link>
               <Link to="buildingTypes" smooth={true} duration={1000}>Types</Link>
             </Nav>
-            <Navbar.Brand>
+            <Navbar.Brand onClick={()=> scroll.scrollToTop()}>
               <Image src="assets/logo.png" />
             </Navbar.Brand>
 
