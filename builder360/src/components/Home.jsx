@@ -11,22 +11,18 @@ import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 import Form from "react-bootstrap/Form";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-
-
+import Footer from "../components/Footer";
+import CustomNavbar from "../components/CustomNavbar";
 import "./home.css";
 
 export default class Home extends Component {
   render() { 
     return (
       <main>
+  <Router>
+    <CustomNavbar/>
+  </Router>
         <Container>
-        <Router>
-       
-          <Navbar />
-      
-  
-      </Router>
           <Jumbotron>
             <h2 className="introtext">
               A New Generation Of Modular Architecture
@@ -279,6 +275,9 @@ export default class Home extends Component {
           {/* Collab Section */}
           
         </Container>
+        <Router>
+          <Footer />
+      </Router>
       </main>
     );
   }
