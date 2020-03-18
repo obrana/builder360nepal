@@ -10,6 +10,8 @@ import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 import Form from "react-bootstrap/Form";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 
 
 import "./home.css";
@@ -19,6 +21,12 @@ export default class Home extends Component {
     return (
       <main>
         <Container>
+        <Router>
+       
+          <Navbar />
+      
+  
+      </Router>
           <Jumbotron>
             <h2 className="introtext">
               A New Generation Of Modular Architecture
