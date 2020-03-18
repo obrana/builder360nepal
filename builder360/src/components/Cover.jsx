@@ -11,8 +11,8 @@ const images = [
   'assets/cover3.jpg'
 ]
 const properties = {
-  duration: 3000,
-  transitionDuration: 4000,
+  // duration: 3000,
+  // transitionDuration: 4000,
   infinite: true,
   indicators: true,
   onChange: (oldIndex, newIndex) => {
@@ -26,7 +26,7 @@ export default class cover extends Component {
       <div className="slide-container">
         <Fade {...properties}>
           <div className="image-container">
-            <img src={images[0]} />
+            < img src={images[0]} />
           </div>
           <div className="image-container">
             <img src={images[1]} />
