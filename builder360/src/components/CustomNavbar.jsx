@@ -11,7 +11,7 @@ export default class CustomNavbar extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="#">Profiles</Nav.Link>
+              <Nav.Link href="/profile">Profiles</Nav.Link>
               <Nav.Link href="#">Process</Nav.Link>
               <Nav.Link href="#">Projects</Nav.Link>
               <Nav.Link href="#">Types</Nav.Link>

@@ -24,7 +24,7 @@ export default class Home extends Component {
             </h2>
           </Jumbotron>
           {/* Profile Section */}
-          <div className="row sectionFirst">
+          <div id= "profile" className="row sectionFirst">
             <div className="col-6"></div>
             <div className="col-6 sectionRight">
               <h2>Builder 360 Nepal</h2>
