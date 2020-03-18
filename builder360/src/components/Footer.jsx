@@ -4,7 +4,7 @@ import { Navbar, Nav, Image } from "react-bootstrap";
 
 import "./footer.css";
 
-class Footer extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
@@ -48,4 +48,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+

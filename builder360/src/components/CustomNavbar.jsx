@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Navbar, Nav, Image, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 import "./CustomNavbar.css";
+import {Link} from "react-scroll";
 
 export default class CustomNavbar extends Component {
   render() {
@@ -11,30 +12,30 @@ export default class CustomNavbar extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="/profile">Profiles</Nav.Link>
-              <Nav.Link href="#">Process</Nav.Link>
-              <Nav.Link href="#">Projects</Nav.Link>
-              <Nav.Link href="#">Types</Nav.Link>
+              <Link to="profile" smooth={true} duration={1000}>Profiles</Link>
+              <Link to="process" smooth={true} duration={1000}>Process</Link>
+              <Link to="projects" smooth={true} duration={1000}>Projects</Link>
+              <Link to="buildingTypes" smooth={true} duration={1000}>Types</Link>
             </Nav>
             <Navbar.Brand>
               <Image src="assets/logo.png" />
             </Navbar.Brand>
 
             <Nav>
-              <Nav.Link href="#">Contact Us</Nav.Link>
-              <Nav.Link href="#">Request a quote</Nav.Link>
-              <Nav.Link href="#">
+              <Link to="contact" smooth={true} duration={1000}>Contact Us</Link>
+              <Link href="#">Request a quote</Link>
+              <Link href="#">
                 <i class="fab fa-facebook-f"></i>
-              </Nav.Link>
-              <Nav.Link href="#">
+              </Link>
+              <Link href="#">
                 <i class="fab fa-twitter"></i>
-              </Nav.Link>
-              <Nav.Link href="#">
+              </Link>
+              <Link href="#">
                 <i class="fab fa-instagram"></i>
-              </Nav.Link>
-              <Nav.Link href="#">
+              </Link>
+              <Link href="#">
                 <i class="fab fa-linkedin"></i>
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
