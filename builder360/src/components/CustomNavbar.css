@@ -8,11 +8,15 @@ nav.navbar,
   z-index: 999;
   border-bottom: 1px solid #eee;
   padding: 0.5% 5.5%;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #000 !important;
+  font-weight: 500;
 }
-
+.fab {
+  color: #fd5a32;
+}
 .nav-link:hover {
   color: #000 !important;
   text-decoration: underline;
