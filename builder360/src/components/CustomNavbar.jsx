@@ -36,7 +36,7 @@ export default class CustomNavbar extends Component {
               <Nav.Link>
                 <Link to="buildingtabs" smooth={true} duration={1000}>
                   Types
-                </Link>
+                </Link> 
               </Nav.Link>
             </Nav>
             <Navbar.Brand onClick={() => scroll.scrollToTop()}>
