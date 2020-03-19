@@ -17,24 +17,19 @@ export default class cover extends Component {
   render() {
     return (
       <div className="slide-container">
+         <span id="banner">
+              <img src="assets/covertext.png" alt="" />
+            </span>
         <Fade {...properties}>
           <div className="image-container">
             <img src={images[0]} />
-            <span>
-              <img src="assets/covertext.png" alt="" />
-            </span>
           </div>
           <div className="image-container">
             <img src={images[1]} />
-            <span>
-              <img src="assets/covertext.png" alt="" />
-            </span>
           </div>
           <div className="image-container">
             <img src={images[2]} />
-            <span>
-              <img src="assets/covertext.png" alt="" />
-            </span>
+       
           </div>
         </Fade>
       </div>

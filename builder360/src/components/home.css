@@ -1,6 +1,6 @@
 /* jumbotron */
 .jumbotron {
-  background-image: url(/assets/cover1.jpg);
+  background-image: url(/assets/home.jpg);
   padding: 13rem 2rem !important;
   margin-top: 100px;
   margin-bottom: 10px !important;
@@ -10,7 +10,9 @@
   border-radius: 0px !important;
 }
 .introtext {
-  width: 450px;
+  width: 550px;
+  font-size: 50px;
+  font-family: "platino";
   border-left: 2px solid #fd5a32;
   padding-left: 20px;
 }
@@ -31,6 +33,7 @@
   color: #fff;
   padding: 20px;
   padding-top: 40px;
+  font-family: "platino";
 }
 .sectionRight h2 {
   margin-bottom: 40px;
