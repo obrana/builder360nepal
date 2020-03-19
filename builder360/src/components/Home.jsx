@@ -16,12 +16,12 @@ import CustomNavbar from "../components/CustomNavbar";
 import "./home.css";
 
 export default class Home extends Component {
-  render() { 
+  render() {
     return (
       <main>
-  <Router>
-    <CustomNavbar/>
-  </Router>
+        <Router>
+          <CustomNavbar />
+        </Router>
         <Container>
           <Jumbotron>
             <h2 className="introtext">
@@ -29,7 +29,7 @@ export default class Home extends Component {
             </h2>
           </Jumbotron>
           {/* Profile Section */}
-          <div id= "profile" className="row sectionFirst">
+          <div id="profile" className="row sectionFirst">
             <div className="col-6"></div>
             <div className="col-6 sectionRight">
               <h2>Builder 360 Nepal</h2>
@@ -93,7 +93,6 @@ export default class Home extends Component {
           {/* Profile Section */}
 
           {/* Building Types Section */}
-        <Container id="buildingTypes">
           <Tab.Container id="building" defaultActiveKey="first">
             <h2 className="customHead">Building Types</h2>
 
@@ -169,10 +168,8 @@ export default class Home extends Component {
               </Col>
             </Row>
           </Tab.Container>
-          </Container>
           {/* Buidling Types Section */}
           {/* Building Process Section */}
-          <Container id="process">
           <Row className="processA">
             <Col xs={6}>
               <Image src="assets/processA.jpg"></Image>
@@ -233,10 +230,8 @@ export default class Home extends Component {
               <Image src="assets/processB.jpg" />
             </Col>
           </Row>
-          </Container>
           {/* Building Process Section */}
           {/* Collab Section */}
-          <Container id="contact">
           <h2 className="customHead">Collaborate with us</h2>
 
           <Row className="collab">
@@ -271,13 +266,11 @@ export default class Home extends Component {
               </Form>
             </Col>
           </Row>
-          </Container>
           {/* Collab Section */}
-          
         </Container>
         <Router>
           <Footer />
-      </Router>
+        </Router>
       </main>
     );
   }

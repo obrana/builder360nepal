@@ -2,6 +2,7 @@
 .jumbotron {
   background-image: url(/assets/cover1.jpg);
   padding: 13rem 2rem !important;
+  margin-top: 100px;
   margin-bottom: 10px !important;
   color: #fff;
   text-transform: uppercase;
@@ -18,7 +19,9 @@
   margin-left: 0px !important;
 }
 /* Profiles */
-
+.container {
+  max-width: 90% !important;
+}
 .sectionFirst {
   background-image: url(/assets/bg.jpg);
   height: auto;
@@ -71,15 +74,18 @@
 .image-col {
   padding: 0px !important;
 }
+#buildingTypes {
+  max-width: 90% !important;
+}
 .buildingtabs .nav-link {
   border-radius: 0px !important;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: #fff;
   font-size: 15px;
-  margin-right: 40px;
+  margin-right: 60px;
   padding: 0px !important;
 }
-.buildingtabs .nav-link:hover{
+.buildingtabs .nav-link:hover {
   opacity: 0.7;
 }
 .buildingtabs .nav-pills .nav-link.active {

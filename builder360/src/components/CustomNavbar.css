@@ -1,16 +1,13 @@
 nav.navbar,
 .navbar-default {
   background: rgba(255, 255, 255, 0.95) !important;
-  position: fixed;
-  top: 0px;
   margin-bottom: 0px;
   width: 100%;
   border-radius: 0px;
   transition: all 0.2s;
   z-index: 999;
   border-bottom: 1px solid #eee;
-  right: 0px;
-  padding: 0.5% 9%;
+  padding: 0.5% 5.5%;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #000 !important;
