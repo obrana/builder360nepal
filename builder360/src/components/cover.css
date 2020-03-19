@@ -3,6 +3,7 @@
   margin: auto;
 }
 
+
 h3 {
   text-align: center;
 }
@@ -22,7 +23,7 @@ h3 {
   justify-content: center;
   margin-top: 20px;
 }
-.image-container span img {
+.image-container span img{
   text-align: center;
   position: absolute;
   top: 30%;
@@ -30,4 +31,16 @@ h3 {
   color: #fff;
   width: 600px !important;
   height: 300px !important;
+  
 }
+#banner {
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 27%;
+    color: #fff;
+    width: 600px !important;
+    height: 300px !important;
+    z-index: 2;
+    
+  }
