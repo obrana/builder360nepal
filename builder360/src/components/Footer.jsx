@@ -13,10 +13,10 @@ export default class Footer extends Component {
             <div className="col-3 location">
               <h4>Builder 360 Nepal</h4>
               <p>
-                CASTBOX LIMITED Coliemore Road, Dalkey, Co. Dublin
-                009779851987653
+              <i class="fas fa-map-marker-alt"></i> Koteshwor-32, Kathmandu Nepal<br/>
+              <i class="fas fa-phone-alt"></i> 0097714154259
               </p>
-              <p>contact@buildr360.com</p>
+              <p><i class="fas fa-envelope"></i> info@buildernepal.com</p>
             </div>
             <div className="col-6"></div>
             <div className="col-3 footerlink">
