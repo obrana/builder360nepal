@@ -19,13 +19,16 @@ export default class cover extends Component {
       <div className="slide-container">
         <Fade {...properties}>
           <div className="image-container">
-            < img src={images[0]} />
+            <img src={images[0]} />
+            <span>We are Builder Nepal</span>
           </div>
           <div className="image-container">
             <img src={images[1]} />
+            <span>We are Builder Nepal</span>
           </div>
           <div className="image-container">
             <img src={images[2]} />
+            <span>We are Builder Nepal</span>
           </div>
         </Fade>
       </div>
