@@ -8,7 +8,13 @@ export default class CustomNavbar extends Component {
   render() {
     return (
       <Container>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="dark"
+          variant="dark"
+          fixed="top"
+        >
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
@@ -18,7 +24,7 @@ export default class CustomNavbar extends Component {
                 </Link>{" "}
               </Nav.Link>
               <Nav.Link>
-                <Link to="process" smooth={true} duration={1000}>
+                <Link to="processA" smooth={true} duration={1000}>
                   Process
                 </Link>{" "}
               </Nav.Link>
@@ -28,7 +34,7 @@ export default class CustomNavbar extends Component {
                 </Link>{" "}
               </Nav.Link>
               <Nav.Link>
-                <Link to="buildingTypes" smooth={true} duration={1000}>
+                <Link to="buildingtabs" smooth={true} duration={1000}>
                   Types
                 </Link>
               </Nav.Link>
@@ -39,7 +45,7 @@ export default class CustomNavbar extends Component {
 
             <Nav>
               <Nav.Link>
-                <Link to="contact" smooth={true} duration={1000}>
+                <Link to="collab" smooth={true} duration={1000}>
                   Contact Us
                 </Link>
               </Nav.Link>
