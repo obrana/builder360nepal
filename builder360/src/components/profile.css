@@ -1,0 +1,47 @@
+.container {
+    max-width: 90% !important;
+  }
+  .sectionFirst {
+    background-image: url(/assets/bg.jpg);
+    height: auto;
+  }
+  .sectionRight {
+    background: rgba(114, 112, 112, 0.71);
+    color: #fff;
+    padding: 20px;
+    padding-top: 40px;
+    font-family: "platino";
+  }
+  .sectionRight h2 {
+    margin-bottom: 40px;
+  }
+  .sectionRight h4 {
+    margin-bottom: 70px;
+  }
+  .profiletabs .nav-link {
+    border-left: 2px solid #fd5a32;
+    border-radius: 0px !important;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .profiletabs .nav-link:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  .profiletabs .nav-pills .nav-link.active {
+    background: none !important;
+    border-left: 2px solid #fd5a32;
+    border-bottom: 2px solid #fd5a32;
+    border-radius: 0px !important;
+    font-style: normal !important;
+  }
+  .row {
+    margin-right: 0px !important;
+  }
+  .profiletabs {
+    padding-bottom: 30px;
+  }
+  .tab-content {
+    font-size: 15px !important;
+  }

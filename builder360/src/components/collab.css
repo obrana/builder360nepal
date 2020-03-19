@@ -1,0 +1,24 @@
+
+.collab {
+    margin-bottom: 50px;
+  }
+  .form-control {
+    border-left: 0 none !important;
+    border-right: 0 none !important;
+    border-top: 0 none !important;
+    border-bottom: 1px solid #fd5a32 !important;
+    border-radius: 0px !important;
+    width: 80% !important;
+    font-size: 13px !important;
+  }
+  textarea.form-control {
+    border: 1px solid #ccc !important;
+    background: #eee !important;
+    margin-top: 40px;
+  }
+  .btn-primary {
+    background-color: #fd5a32 !important;
+    border-radius: 0px !important;
+    border: 0 none !important;
+  }
+  
