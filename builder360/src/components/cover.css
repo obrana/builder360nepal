@@ -1,8 +1,8 @@
 .slide-container {
   width: 100%;
   margin: auto;
+  background: black;
 }
-
 
 h3 {
   text-align: center;
@@ -15,6 +15,8 @@ h3 {
 .image-container img {
   width: 100%;
   height: 100vh !important;
+  filter: brightness(30%);
+  
 }
 
 .react-slideshow-container + div.indicators {
