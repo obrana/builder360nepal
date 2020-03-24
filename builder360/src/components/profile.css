@@ -2,11 +2,13 @@
     max-width: 90% !important;
   }
   .sectionFirst {
-    background-image: url(/assets/bg.jpg);
+    background-image: url(/assets/cover3.jpg);
     height: auto;
+    background-size: contain;
+   
   }
   .sectionRight {
-    background: rgba(114, 112, 112, 0.71);
+    background: rgba(0, 0, 0, 0.605);
     color: #fff;
     padding: 20px;
     padding-top: 40px;

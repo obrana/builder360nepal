@@ -9,7 +9,6 @@ export default class collab extends Component {
   render() {
     return (
       <main>
-       
           {/* Collab Section */}
           <h2 className="customHead">Collaborate with us</h2>
 

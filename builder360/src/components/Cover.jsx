@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Slide, Zoom, Fade } from "react-slideshow-image";
 import "./cover.css";
 
-const images = ["assets/cover1.jpg", "assets/cover2.jpg", "assets/cover3.jpg"];
+const images = ["assets/cover1.jpg", "assets/cover2.jpg", "assets/cover4.jpg"];
 const properties = {
   // duration: 3000,
   // transitionDuration: 4000,

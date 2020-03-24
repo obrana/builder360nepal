@@ -17,18 +17,18 @@ export default class buildingTypes extends Component {
               <Col sm={6} className="image-col">
                 <Nav variant="pills">
                   <Nav.Link eventKey="first">
-                    <img src="assets/typeA.jpg" alt="" />
+                    <img class="img-fluid" height="200" width="200" src="assets/typeA.png" alt="" />
                   </Nav.Link>
                   <Nav.Link eventKey="second">
-                    <img src="assets/typeA.jpg" alt="" />
+                    <img class="img-fluid" height="200" width="200" src="assets/typeB.jpg" alt="" />
                   </Nav.Link>
 
                   <Nav.Link eventKey="third">
-                    <img src="assets/typeA.jpg" alt="" />
+                    <img class="img-fluid" height="200" width="200" src="assets/typeC.jpg" alt="" />
                   </Nav.Link>
 
                   <Nav.Link eventKey="fourth">
-                    <img src="assets/typeA.jpg" alt="" />
+                    <img class="img-fluid" height="200" width="200" src="assets/typeD.jpg" alt="" />
                   </Nav.Link>
                 </Nav>
               </Col>
