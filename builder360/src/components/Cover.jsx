@@ -18,7 +18,7 @@ export default class cover extends Component {
     return (
       <div className="slide-container">
          <span id="banner">
-              <img src="assets/covertext.png" alt="" />
+              <img class="img-fluid" src="assets/covertext.png" alt="" />
             </span>
         <Fade {...properties}>
           <div className="image-container">
