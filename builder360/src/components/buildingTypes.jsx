@@ -8,6 +8,7 @@ export default class buildingTypes extends Component {
   render() {
     return (
       <main>
+
         {/* Building Types Section */}
         <Tab.Container id="building" defaultActiveKey="first">
           <h2 className="customHead">Building Types</h2>
@@ -17,6 +18,7 @@ export default class buildingTypes extends Component {
               <Nav variant="pills">
                 <Nav.Link eventKey="first">
                   <div class="content">
+
                     <div class="text">The Town House</div>
                   </div>
                   <img
@@ -39,6 +41,8 @@ export default class buildingTypes extends Component {
                     alt=""
                   />
                 </Nav.Link>
+
+
 
                 <Nav.Link eventKey="third">
                   <div class="content">
@@ -73,6 +77,7 @@ export default class buildingTypes extends Component {
                   SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
                   HOUSE TYPES.
                 </h4>
+
 
                 <Tab.Pane eventKey="first">
                   <h5>
