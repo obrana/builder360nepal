@@ -17,9 +17,16 @@ export default class cover extends Component {
   render() {
     return (
       <div className="slide-container">
-         <span id="banner">
-              <img class="img-fluid" src="assets/covertext.png" alt="" />
-            </span>
+        <span id="banner">
+          <img class="img-fluid" src="assets/covertext.png" alt="" />
+        </span>
+        <div id="scroll-info">
+          <a href="/home">Scroll</a>
+          <div id="scroll-info-line">
+            <div>
+            </div>
+          </div>
+        </div>
         <Fade {...properties}>
           <div className="image-container">
             <img src={images[0]} />
@@ -29,9 +36,10 @@ export default class cover extends Component {
           </div>
           <div className="image-container">
             <img src={images[2]} />
-       
+
           </div>
         </Fade>
+       
       </div>
     );
   }

@@ -8,7 +8,6 @@ export default class buildingTypes extends Component {
   render() {
     return (
       <main>
-
         {/* Building Types Section */}
         <Tab.Container id="building" defaultActiveKey="first">
           <h2 className="customHead">Building Types</h2>
@@ -78,11 +77,10 @@ export default class buildingTypes extends Component {
                   HOUSE TYPES.
                 </h4>
 
-
                 <Tab.Pane eventKey="first">
                   <h5>
                     <span>A.</span> The Town House
-                  </h5>
+                  </h5> 
                   <p>
                     The Town House is a very popular form of housing in
                     Denmark.This is a well executed one and a half or two

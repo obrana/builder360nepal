@@ -38,6 +38,7 @@ export default class CustomNavbar extends Component {
                   Types
                 </Link> 
               </Nav.Link>
+              
             </Nav>
             <Navbar.Brand onClick={() => scroll.scrollToTop()}>
               <Image src="assets/logo.png" />
