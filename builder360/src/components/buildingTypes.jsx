@@ -13,7 +13,7 @@ export default class buildingTypes extends Component {
           <h2 className="customHead">Building Types</h2>
 
           <Row className="buildingtabs">
-            <Col md={6} className="image-col">
+            <Col sm={6} className="image-col">
               <Nav variant="pills">
                 <Nav.Link eventKey="first">
                   <img
@@ -23,6 +23,9 @@ export default class buildingTypes extends Component {
                     src="assets/typeA.png"
                     alt=""
                   />
+                  <div class="content">
+                    <div class="text">The Town House</div>
+                  </div>
                 </Nav.Link>
                 <Nav.Link eventKey="second">
                   <img
@@ -32,6 +35,9 @@ export default class buildingTypes extends Component {
                     src="assets/typeB.jpg"
                     alt=""
                   />
+                  <div class="content">
+                    <div class="text">The Compact House</div>
+                  </div>
                 </Nav.Link>
 
                 <Nav.Link eventKey="third">
@@ -42,6 +48,9 @@ export default class buildingTypes extends Component {
                     src="assets/typeC.jpg"
                     alt=""
                   />
+                  <div class="content">
+                    <div class="text">The Angle House</div>
+                  </div>
                 </Nav.Link>
 
                 <Nav.Link eventKey="fourth">
@@ -52,10 +61,13 @@ export default class buildingTypes extends Component {
                     src="assets/typeD.jpg"
                     alt=""
                   />
+                  <div class="content">
+                    <div class="text">The Funkis House</div>
+                  </div>
                 </Nav.Link>
               </Nav>
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
               <Tab.Content>
                 <h4 className="smallHead">
                   SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
