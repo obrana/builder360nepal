@@ -14,7 +14,7 @@
   margin-bottom: 50px !important;
 }
 .buildingtabs .nav-link {
-  border-radius: 0px !important;
+  border-radius: 0px !important; 
   margin-bottom: 50px;
   color: #fff;
   font-size: 17px;
@@ -22,10 +22,10 @@
   padding: 0px !important;
 }
 .buildingtabs .nav-link:hover {
-  opacity: 0.7;
+  background: rgba(0, 0, 0, 0.605) !important;
 }
 .buildingtabs .nav-pills .nav-link.active {
-  background: none !important;
+  background: none;
   border-bottom: 4px solid #fd5a32;
   border-radius: 0px !important;
   font-style: normal !important;
@@ -84,17 +84,16 @@
   opacity: 0;
   font-size: 20px;
   position: absolute;
-  top: 0;
-  left: 0;
   color: #fff;
   width: 200px;
-  height: 200px;
+  height: 153px;
   -webkit-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
   -ms-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
   text-align: center;
+  background: rgba(0, 0, 0, 0.605) !important;
 }
 .content:hover {
   opacity: 1;
@@ -109,4 +108,3 @@
   -webkit-transform: translateY(75px);
 }
 
-/* Building Types */

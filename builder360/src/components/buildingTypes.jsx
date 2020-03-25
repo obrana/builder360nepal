@@ -16,6 +16,10 @@ export default class buildingTypes extends Component {
             <Col sm={6} className="image-col">
               <Nav variant="pills">
                 <Nav.Link eventKey="first">
+                  <div class="content">
+
+                    <div class="text">The Town House</div>
+                  </div>
                   <img
                     class="img-fluid"
                     height="200"
@@ -23,11 +27,11 @@ export default class buildingTypes extends Component {
                     src="assets/typeA.png"
                     alt=""
                   />
-                  <div class="content">
-                    <div class="text">The Town House</div>
-                  </div>
                 </Nav.Link>
                 <Nav.Link eventKey="second">
+                  <div class="content">
+                    <div class="text">The Compact House</div>
+                  </div>
                   <img
                     class="img-fluid"
                     height="200"
@@ -35,12 +39,14 @@ export default class buildingTypes extends Component {
                     src="assets/typeB.jpg"
                     alt=""
                   />
-                  <div class="content">
-                    <div class="text">The Compact House</div>
-                  </div>
                 </Nav.Link>
 
+
+
                 <Nav.Link eventKey="third">
+                  <div class="content">
+                    <div class="text">The Angle House</div>
+                  </div>
                   <img
                     class="img-fluid"
                     height="200"
@@ -48,12 +54,12 @@ export default class buildingTypes extends Component {
                     src="assets/typeC.jpg"
                     alt=""
                   />
-                  <div class="content">
-                    <div class="text">The Angle House</div>
-                  </div>
                 </Nav.Link>
 
                 <Nav.Link eventKey="fourth">
+                  <div class="content">
+                    <div class="text">The Funkis House</div>
+                  </div>
                   <img
                     class="img-fluid"
                     height="200"
@@ -61,9 +67,6 @@ export default class buildingTypes extends Component {
                     src="assets/typeD.jpg"
                     alt=""
                   />
-                  <div class="content">
-                    <div class="text">The Funkis House</div>
-                  </div>
                 </Nav.Link>
               </Nav>
             </Col>
@@ -77,7 +80,7 @@ export default class buildingTypes extends Component {
                 <Tab.Pane eventKey="first">
                   <h5>
                     <span>A.</span> The Town House
-                  </h5>
+                  </h5> 
                   <p>
                     The Town House is a very popular form of housing in
                     Denmark.This is a well executed one and a half or two

@@ -1,8 +1,6 @@
 /* jumbotron */
 .jumbotron {
-  background-image: url(/assets/home.jpg); 
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(/assets/home.jpg);
   padding: 13rem 2rem !important;
   margin-top: 100px;
   margin-bottom: 10px !important;
