@@ -18,17 +18,29 @@ export default class buildingTypes extends Component {
                 <Nav variant="pills">
                   <Nav.Link eventKey="first">
                     <img class="img-fluid" height="200" width="200" src="assets/typeA.png" alt="" />
+                   <div class="content">
+                    <div class="text">The Town House</div>
+                    </div>
                   </Nav.Link>
                   <Nav.Link eventKey="second">
                     <img class="img-fluid" height="200" width="200" src="assets/typeB.jpg" alt="" />
+                    <div class="content">
+                    <div class="text">The Compact House</div>
+                    </div>
                   </Nav.Link>
 
                   <Nav.Link eventKey="third">
                     <img class="img-fluid" height="200" width="200" src="assets/typeC.jpg" alt="" />
+                    <div class="content">
+                    <div class="text">The Angle House</div>
+                    </div>
                   </Nav.Link>
-
+                
                   <Nav.Link eventKey="fourth">
                     <img class="img-fluid" height="200" width="200" src="assets/typeD.jpg" alt="" />
+                    <div class="content">
+                    <div class="text">The Funkis House</div>
+                    </div>
                   </Nav.Link>
                 </Nav>
               </Col>

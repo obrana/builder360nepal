@@ -14,7 +14,7 @@ export default class collab extends Component {
 
           <Row className="collab">
             <Col xs={6}>
-              <Image src="assets/collab.png"></Image>
+              <Image class="img-fluid" src="assets/collab.png"></Image>
             </Col>
 
             <Col xs={6}>
@@ -38,7 +38,7 @@ export default class collab extends Component {
                     as="textarea"
                     placeholder="Your Message Here"
                     rows="5"
-                  />
+                  /> 
                 </Form.Group>
                 <Button type="submit">Send</Button>
               </Form>
