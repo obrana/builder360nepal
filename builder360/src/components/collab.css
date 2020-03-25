@@ -19,6 +19,7 @@ textarea.form-control {
   background-color: #fd5a32 !important;
   border-radius: 0px !important;
   border: 0 none !important;
+  font-size: 17px;
 }
 .collabHead {
   font-size: 34px !important;
