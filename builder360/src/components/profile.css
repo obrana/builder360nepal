@@ -1,49 +1,51 @@
 .container {
-    max-width: 90% !important;
-  }
-  .sectionFirst {
-    background-image: url(/assets/cover3.jpg);
-    height: auto;
-    background-size: contain;
-   
-  }
-  .sectionRight {
-    background: rgba(0, 0, 0, 0.605);
-    color: #fff;
-    padding: 20px;
-    padding-top: 40px;
-    font-family: "platino";
-  }
-  .sectionRight h2 {
-    margin-bottom: 40px;
-  }
-  .sectionRight h4 {
-    margin-bottom: 70px;
-  }
-  .profiletabs .nav-link {
-    border-left: 2px solid #fd5a32;
-    border-radius: 0px !important;
-    margin-bottom: 15px;
-    color: #fff;
-    font-size: 15px;
-  }
-  .profiletabs .nav-link:hover {
-    color: #fff !important;
-    text-decoration: none !important;
-  }
-  .profiletabs .nav-pills .nav-link.active {
-    background: none !important;
-    border-left: 2px solid #fd5a32;
-    border-bottom: 2px solid #fd5a32;
-    border-radius: 0px !important;
-    font-style: normal !important;
-  }
-  .row {
-    margin-right: 0px !important;
-  }
-  .profiletabs {
-    padding-bottom: 30px;
-  }
-  .tab-content {
-    font-size: 15px !important;
-  }
+  max-width: 90% !important;
+}
+.sectionFirst {
+  background-image: url(/assets/cover3.jpg);
+  height: auto;
+  background-size: cover !important;
+  width: 100%;
+}
+.sectionRight {
+  background: rgba(0, 0, 0, 0.605);
+  color: #fff;
+  padding: 20px;
+  padding-top: 40px;
+  font-family: "platino";
+}
+.sectionRight h2 {
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+.sectionRight h4 {
+  margin-bottom: 70px;
+  font-size: 34px;
+}
+.profiletabs .nav-link {
+  border-left: 2px solid #fd5a32;
+  border-radius: 0px !important;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 17px;
+}
+.profiletabs .nav-link:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.profiletabs .nav-pills .nav-link.active {
+  background: none !important;
+  border-left: 2px solid #fd5a32;
+  border-bottom: 2px solid #fd5a32;
+  border-radius: 0px !important;
+  font-style: normal !important;
+}
+.row {
+  margin-right: 0px !important;
+}
+.profiletabs {
+  padding-bottom: 30px;
+}
+.tab-content {
+  font-size: 17px !important;
+}
