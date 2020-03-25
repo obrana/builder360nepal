@@ -12,7 +12,6 @@ export default class buildingTypes extends Component {
           {/* Building Types Section */}
           <Tab.Container id="building" defaultActiveKey="first">
             <h2 className="customHead">Building Types</h2>
-
             <Row className="buildingtabs">
               <Col sm={6} className="image-col">
                 <Nav variant="pills">
@@ -31,16 +30,12 @@ export default class buildingTypes extends Component {
 
                   <Nav.Link eventKey="third">
                     <img class="img-fluid" height="200" width="200" src="assets/typeC.jpg" alt="" />
-                    <div class="content">
-                    <div class="text">The Angle House</div>
-                    </div>
+
                   </Nav.Link>
                 
                   <Nav.Link eventKey="fourth">
                     <img class="img-fluid" height="200" width="200" src="assets/typeD.jpg" alt="" />
-                    <div class="content">
-                    <div class="text">The Funkis House</div>
-                    </div>
+                 
                   </Nav.Link>
                 </Nav>
               </Col>
