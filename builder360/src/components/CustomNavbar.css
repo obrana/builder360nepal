@@ -13,6 +13,7 @@ nav.navbar,
 .navbar-dark .navbar-nav .nav-link {
   color: #000 !important;
   font-weight: 500;
+  font-size: 19px;
 }
 .fab {
   color: #fd5a32;
