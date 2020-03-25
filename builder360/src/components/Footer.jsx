@@ -10,16 +10,20 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-3 location">
+            <div className="col-md-3 location">
               <h4>Builder 360 Nepal</h4>
               <p>
-              <i class="fas fa-map-marker-alt"></i> Koteshwor-32, Kathmandu Nepal<br/>
-              <i class="fas fa-phone-alt"></i> 0097714154259
+                <i class="fas fa-map-marker-alt"></i> Koteshwor-32, Kathmandu
+                Nepal
+                <br />
+                <i class="fas fa-phone-alt"></i> 0097714154259
               </p>
-              <p><i class="fas fa-envelope"></i> info@buildernepal.com</p>
+              <p>
+                <i class="fas fa-envelope"></i> info@buildernepal.com
+              </p>
             </div>
-            <div className="col-6"></div>
-            <div className="col-3 footerlink">
+            <div className="col-md-6"></div>
+            <div className="col-md-3 footerlink">
               <h4>Follow Us</h4>
               <Nav>
                 <Nav.Link href="#">
@@ -39,7 +43,7 @@ export default class Footer extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 copyright">
+          <div className="col-md-12 copyright">
             <p>© 2019. All Rights Reserved.</p>
           </div>
         </div>
@@ -47,5 +51,3 @@ export default class Footer extends Component {
     );
   }
 }
-
-
