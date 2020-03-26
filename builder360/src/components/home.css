@@ -20,4 +20,10 @@
 .row {
   margin-left: 0px !important;
 }
-
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .introtext {
+    width: 200px;
+    font-size: 34px;
+  }
+}

@@ -19,15 +19,11 @@ export default class Home extends Component {
           <CustomNavbar />
         </Router>
         <Container>
-          <Row>
-            <Col md={12}>
-              <Jumbotron>
-                <h2 className="introtext">
-                  A New Generation Of Modular Architecture
-                </h2>
-              </Jumbotron>
-            </Col>
-          </Row>
+          <Jumbotron>
+            <h2 className="introtext">
+              A New Generation Of Modular Architecture
+            </h2>
+          </Jumbotron>
           {/* Profile Section */}
           <Profile />
           {/* Profile Section */}
