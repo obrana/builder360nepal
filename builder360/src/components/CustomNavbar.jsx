@@ -19,11 +19,10 @@ export default class CustomNavbar extends Component {
             <a onClick={() => scroll.scrollToTop()}>
               <Image src="assets/logo.png" class="img-fluid" />
             </a>
-            </div>
-           
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            
+          </div>
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
               <Nav.Link>
                 <Link to="profile" smooth={true} duration={1000}>
@@ -43,9 +42,8 @@ export default class CustomNavbar extends Component {
               <Nav.Link>
                 <Link to="buildingtabs" smooth={true} duration={1000}>
                   Types
-                </Link> 
+                </Link>
               </Nav.Link>
-              
             </Nav>
             <Navbar.Brand onClick={() => scroll.scrollToTop()}>
               <Image src="assets/logo.png" />
@@ -61,26 +59,26 @@ export default class CustomNavbar extends Component {
                 <Link to="#">Request a quote</Link>{" "}
               </Nav.Link>
               <div className="social">
-              <Nav.Link>
-                <Link to="#">
-                  <i class="fab fa-facebook-f"></i>
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="#">
-                  <i class="fab fa-twitter"></i>
-                </Link>{" "}
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="#">
-                  <i class="fab fa-instagram"></i>
-                </Link>{" "}
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="#">
-                  <i class="fab fa-linkedin"></i>
-                </Link>{" "}
-              </Nav.Link>
+                <Nav.Link>
+                  <Link to="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to="#">
+                    <i class="fab fa-twitter"></i>
+                  </Link>{" "}
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to="#">
+                    <i class="fab fa-instagram"></i>
+                  </Link>{" "}
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to="#">
+                    <i class="fab fa-linkedin"></i>
+                  </Link>{" "}
+                </Nav.Link>
               </div>
             </Nav>
           </Navbar.Collapse>
