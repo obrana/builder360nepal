@@ -107,4 +107,8 @@
   transform: translateY(250px);
   -webkit-transform: translateY(75px);
 }
-
+@media (max-width: 768px) {
+.img-fluid{
+  display: inline;
+}
+}

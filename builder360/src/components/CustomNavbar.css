@@ -33,13 +33,33 @@ nav.navbar,
   background-color: #000 !important;
   border-radius: 0px !important;
 }
+.logo{
+  display: none;
+}
+.social{
+  display: flex;
+}
+
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 991px) {
   .navbar-brand {
-    margin: 0px auto !important;
-    position: absolute;
-    top: 0%;
-    right: 10%;
-    text-align: right;
+    display: none;
   }
+  .logo {
+    display: contents;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    border: none;
+  }
+   .social {
+    display: flex;
+  }
+  .social a{
+    margin-left: 15px;
+  }
+
 }
