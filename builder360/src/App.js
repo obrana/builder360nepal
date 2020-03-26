@@ -1,23 +1,37 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Cover from "./components/Cover";
-import Navbar from "./components/CustomNavbar";
-import Footer from "./components/Footer";
+import {
+  CSSTransition,
+  TransitionGroup,
+  Transition
+} from 'react-transition-group';
+import {play , exit } from "./timelines"
 
 class App extends Component {
   render() {
     return (
-      <Router>
-           <Route exact path="/" component={Cover} />
-        <div>
-       
-          <Route exact path="/home" component={Home} />
-          {/* <Navbar />
-          <Footer /> */}
+      <BrowserRouter>
+        <div className="App">
+              <Route render={({location}) => (
+                <TransitionGroup>
+                  <CSSTransition
+                    key={location.key}
+                    timeout={450}
+                    classNames="fade"
+                  >
+                  <Switch location={location}>
+                    <Route exact path="/" component={Cover} />
+                    <Route exact path="/home" component={Home} />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+            )}/>
+          
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }

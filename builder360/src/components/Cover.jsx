@@ -4,7 +4,7 @@ import "./cover.css";
 
 const images = ["assets/cover1.jpg", "assets/cover2.jpg", "assets/cover4.jpg"];
 const properties = {
-  duration: 3000,
+  duration: 2000,
   transitionDuration: 4000,
   infinite: true,
   indicators: true,
@@ -18,7 +18,7 @@ export default class cover extends Component {
     return (
       <div className="slide-container">
         <span id="banner">
-          <img class="img-fluid" src="assets/covertext.png" alt="" />
+          <img src="assets/covertext.png" alt="" />
         </span>
         <div id="scroll-info">
           <a href="/home">Scroll</a>
@@ -38,8 +38,7 @@ export default class cover extends Component {
             <img src={images[2]} />
           </div>
         </Fade>
-       
-      </div>
+      </div> 
     );
   }
 }
