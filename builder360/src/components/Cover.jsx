@@ -23,8 +23,7 @@ export default class cover extends Component {
         <div id="scroll-info">
           <a href="/home">Scroll</a>
           <div id="scroll-info-line">
-            <div>
-            </div>
+            <div></div>
           </div>
         </div>
         <Fade {...properties}>
@@ -38,7 +37,7 @@ export default class cover extends Component {
             <img src={images[2]} />
           </div>
         </Fade>
-      </div> 
+      </div>
     );
   }
 }
