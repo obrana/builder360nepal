@@ -106,6 +106,18 @@ h3 {
 	33%,66% { left: 0px; width: 80px; }
 	95%, to { left: 80px; }
 }
-
-
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 991px) {
+#banner{
+	text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 15%;
+    color: #fff;
+    width: 600px !important;
+    height: 300px !important;
+    z-index: 2;
+}
+  
+}
 
