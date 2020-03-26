@@ -40,7 +40,7 @@ export default class Home extends Component {
         <Router>
           <Footer />
         </Router>
-      </main>
+      </main> 
     );
   }
 }

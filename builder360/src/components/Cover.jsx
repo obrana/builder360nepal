@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Fade } from "react-slideshow-image";
 import "./cover.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 const images = ["assets/cover1.jpg", "assets/cover2.jpg", "assets/cover4.jpg"];
 const properties = {
@@ -27,6 +28,7 @@ export default class cover extends Component {
             </div>
           </div>
         </div>
+        
         <Fade {...properties}>
           <div className="image-container">
             <img src={images[0]} />
