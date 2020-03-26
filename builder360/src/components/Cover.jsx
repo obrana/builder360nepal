@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Slide, Zoom, Fade } from "react-slideshow-image";
+import { Fade } from "react-slideshow-image";
 import "./cover.css";
 
 const images = ["assets/cover1.jpg", "assets/cover2.jpg", "assets/cover4.jpg"];
