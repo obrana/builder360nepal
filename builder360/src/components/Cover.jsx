@@ -36,7 +36,6 @@ export default class cover extends Component {
           </div>
           <div className="image-container">
             <img src={images[2]} />
-
           </div>
         </Fade>
        
