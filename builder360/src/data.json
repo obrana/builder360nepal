@@ -1,0 +1,30 @@
+{
+    "HouseTypes": [
+        {
+           "img": "assets/typeA.jpg" ,
+           "h":"A.",
+           "title": "The Town House" ,
+           "details": "The Town House is a very popular form of housing in Denmark.This is a well executed one and a half or two stories housing type, inspired by classic Danish housing architecture."
+        },
+        {
+            "img": "assets/typeB.jpg",
+            "h":"B.",
+            "title": "The Compact House",
+            "details": "Rectangular in shape, the Compact House has very beautiful features. The geometry of this kind of housing is very cost-effective, stylish and structural."
+
+         }, 
+         {
+            "img": "assets/typeC.jpg" ,
+            "h":"C.",
+            "title": "The Angle House",
+            "details": "The Angle House is a great choice for people who love to separate personal and social space. The bedrooms and living areas can be divided and yard space can be created in this housing type."
+         }, 
+         {
+            "img": "assets/typeD.jpg" ,
+            "h":"D.",
+            "title": "The Funkis House" ,
+            "details": "The Funkis House is quite similar in layout to the classic Nepalese homes. It has a flat roof and normally built in double stories."
+         }
+    ]
+   
+ }
