@@ -20,7 +20,6 @@ export default class CustomNavbar extends Component {
               <Image src="assets/logo.png" class="img-fluid" />
             </a>
           </div>
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>

@@ -70,7 +70,6 @@ export default class buildingTypes extends Component {
                   />
                 </Nav.Link> */}
                 <Nav.Link eventKey="first">
-                  <div>
                     {
                       data.HouseTypes.map((types, i) => {
                         return (
@@ -92,7 +91,7 @@ export default class buildingTypes extends Component {
                         );
                       })
                     }
-                  </div>
+                  
                 </Nav.Link>
               </Nav>
             </Col>
@@ -148,7 +147,6 @@ export default class buildingTypes extends Component {
                   {/* <Tab.Pane> */}
 
                 <Tab.Pane eventKey="first">
-                  <div>
                     {
                       data.HouseTypes.map((types, i) => {
                         return (
@@ -164,7 +162,6 @@ export default class buildingTypes extends Component {
                         );
                       })
                     }
-                  </div>
                 </Tab.Pane>
               </Tab.Content>
             </Col>
@@ -177,7 +174,7 @@ export default class buildingTypes extends Component {
               SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
               HOUSE TYPES.
                 </h4>
-            <div>
+            
               {
                 data.HouseTypes.map((types, i) => {
                   return (
@@ -194,7 +191,7 @@ export default class buildingTypes extends Component {
                   );
                 })
               }
-            </div>
+            
           </div>
         </div>
       </main>

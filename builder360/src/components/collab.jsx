@@ -20,20 +20,20 @@ export default class collab extends Component {
           <Col md={6}>
             <h4 className="collabHead">Tell Us about yourself:</h4>
             <Form>
-              <Form.Group controlId="exampleForm.ControlInput1">
+              <Form.Group controlId="ControlInput">
                 <Form.Control type="email" placeholder="Name" />
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlInput1">
-                <Form.Control type="email" placeholder="Email Address" />
+              <Form.Group controlId="ControlInput">
+                <Form.Control  type="email" placeholder="Email Address" />
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlInput1">
+              <Form.Group controlId="ControlInput">
                 <Form.Control type="email" placeholder="Address" />
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlInput1">
+              <Form.Group controlId="ControlInput">
                 <Form.Control type="email" placeholder="Phone Number" />
               </Form.Group>
 
-              <Form.Group controlId="exampleForm.ControlTextarea1">
+              <Form.Group controlId="ControlInput">
                 <Form.Control
                   as="textarea"
                   placeholder="Your Message Here"
