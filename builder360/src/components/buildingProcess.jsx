@@ -12,7 +12,7 @@ export default class buildingProcess extends Component {
       <main>
         {/* Building Process Section */}
         <Row className="processA">
-          <Col md={6}>
+          <Col  md={6}>
             <Image src="assets/processA.jpg"></Image>
           </Col>
 
@@ -20,6 +20,7 @@ export default class buildingProcess extends Component {
             <h2 className="customHead">Building Process</h2>
             <p id="subTitle">A high performance bio-based building system</p>
           </Col>
+          
         </Row>
         <Row className="processB">
           <Col md={6}>

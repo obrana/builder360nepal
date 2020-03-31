@@ -12,6 +12,7 @@
 }
 .buildingtabs {
   margin-bottom: 50px !important;
+
 }
 .buildingtabs .nav-link {
   border-radius: 0px !important; 
@@ -48,9 +49,7 @@
 .image-col {
   padding: 0px !important;
 }
-#buildingTypes {
-  max-width: 90% !important;
-}
+
 .buildingtabs .nav-link {
   border-radius: 0px !important;
   margin-bottom: 50px;
@@ -86,7 +85,7 @@
   position: absolute;
   color: #fff;
   width: 200px;
-  height: 153px;
+  height: 150px;
   -webkit-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
@@ -105,10 +104,24 @@
 }
 .content:hover .text {
   transform: translateY(250px);
-  -webkit-transform: translateY(75px);
+  -webkit-transform: translateY(65px);
 }
+.containerBuilding{
+  display: none;
+}
+
+
 @media (max-width: 768px) {
-.img-fluid{
-  display: inline;
-}
-}
+  .buildingtabs{
+    display: none;
+  }
+
+  .buildingHead h5 span {
+    color: #fd5a32 !important;
+   
+  }
+  .containerBuilding{
+    display: flex;
+  }
+
+  } 

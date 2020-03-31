@@ -3,10 +3,13 @@ import { Jumbotron, Button, Col, Row, Container } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 import "./buildingTypes.css";
+import data from "../data.json";
 
 export default class buildingTypes extends Component {
+
   render() {
     return (
+
       <main>
         {/* Building Types Section */}
         <Tab.Container id="building" defaultActiveKey="first">
@@ -15,7 +18,8 @@ export default class buildingTypes extends Component {
           <Row className="buildingtabs">
             <Col sm={6} className="image-col">
               <Nav variant="pills">
-                <Nav.Link eventKey="first">
+                {/* <Nav.Link eventKey="first"> */}
+                {/* 
                   <div class="content">
 
                     <div class="text">The Town House</div>
@@ -40,9 +44,6 @@ export default class buildingTypes extends Component {
                     alt=""
                   />
                 </Nav.Link>
-
-
-
                 <Nav.Link eventKey="third">
                   <div class="content">
                     <div class="text">The Angle House</div>
@@ -67,6 +68,31 @@ export default class buildingTypes extends Component {
                     src="assets/typeD.jpg"
                     alt=""
                   />
+                </Nav.Link> */}
+                <Nav.Link eventKey="first">
+                  <div>
+                    {
+                      data.HouseTypes.map((types, i) => {
+                        return (
+                          <div>
+
+                            <div>
+                              <div class="content">
+                                <div class="text">
+                                  <h6>{types.title}</h6>
+                                </div>
+                              </div>
+                              <img
+                                class="img-fluid"
+                                height="200"
+                                width="200" src={types.img} />
+                            </div>
+
+                          </div>
+                        );
+                      })
+                    }
+                  </div>
                 </Nav.Link>
               </Nav>
             </Col>
@@ -76,11 +102,11 @@ export default class buildingTypes extends Component {
                   SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
                   HOUSE TYPES.
                 </h4>
-
-                <Tab.Pane eventKey="first">
-                  <h5>
+{/* 
+                <Tab.Pane eventKey="first"> */}
+                  {/* <h5>
                     <span>A.</span> The Town House
-                  </h5> 
+                  </h5>
                   <p>
                     The Town House is a very popular form of housing in
                     Denmark.This is a well executed one and a half or two
@@ -118,12 +144,59 @@ export default class buildingTypes extends Component {
                     Nepalese homes. It has a flat roof and normally built in
                     double stories.
                   </p>
+                </Tab.Pane> */}
+                  {/* <Tab.Pane> */}
+
+                <Tab.Pane eventKey="first">
+                  <div>
+                    {
+                      data.HouseTypes.map((types, i) => {
+                        return (
+                          <div>
+
+                            <div><h5>
+                              <span>{types.h}</span> {types.title}
+                            </h5>
+                              <p>{types.details}</p>
+                            </div>
+
+                          </div>
+                        );
+                      })
+                    }
+                  </div>
                 </Tab.Pane>
               </Tab.Content>
             </Col>
           </Row>
         </Tab.Container>
         {/* Buidling Types Section */}
+        <div className="containerBuilding">
+          <div className="buildingHead">
+            <h4 className="smallHead">
+              SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
+              HOUSE TYPES.
+                </h4>
+            <div>
+              {
+                data.HouseTypes.map((types, i) => {
+                  return (
+                    <div>
+                      <div>
+                        <img src={types.img} />
+                        <div>
+                          <h5><span>{types.h}</span>{types.title}</h5>
+                          <p>{types.details}</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  );
+                })
+              }
+            </div>
+          </div>
+        </div>
       </main>
     );
   }
