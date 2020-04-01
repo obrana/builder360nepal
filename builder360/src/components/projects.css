@@ -1,0 +1,25 @@
+.card {
+  padding-right: 20px;
+}
+#projects {
+  margin-bottom: 70px;
+}
+.card-img-top {
+  transition: 1s;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  z-index: 999;
+}
+.card-title {
+  font-size: 24px !important;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 999;
+}
