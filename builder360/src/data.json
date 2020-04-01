@@ -25,6 +25,19 @@
             "title": "The Funkis House" ,
             "details": "The Funkis House is quite similar in layout to the classic Nepalese homes. It has a flat roof and normally built in double stories."
          }
+    ],
+
+    "Projects":[
+        {
+            "img":"assets/typeA.jpg"
+
+        },
+        {
+            "img":"assets/typeB.jpg"
+        },
+        {
+            "img":"assets/typeC.jpg"
+        }
     ]
    
  }
