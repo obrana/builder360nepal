@@ -9,28 +9,30 @@ export default class Project extends Component {
   render() {
     return (
       <main>
-        <h2 className="customHead">Projects</h2>
+        <div id="projects">
+          <h2 className="customHead">Projects</h2>
 
-        <CardGroup>
-          <Card>
-            <Card.Img variant="top" src="assets/pro1.jpg" />
-            <Card.Body>
-              <Card.Title>Project 1</Card.Title>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="assets/pro2.jpg" />
-            <Card.Body>
-              <Card.Title>Project 2</Card.Title>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="assets/pro3.jpg" />
-            <Card.Body>
-              <Card.Title>Project 3</Card.Title>
-            </Card.Body>
-          </Card>
-        </CardGroup>
+          <CardGroup>
+            <Card>
+              <Card.Img variant="top" src="assets/pro1.jpg" />
+              <Card.Body>
+                <Card.Title>Himshikhar Agro Farm</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="assets/pro2.jpg" />
+              <Card.Body>
+                <Card.Title>Project 2</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="assets/pro3.jpg" />
+              <Card.Body>
+                <Card.Title>Project 3</Card.Title>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+        </div>
       </main>
     );
   }

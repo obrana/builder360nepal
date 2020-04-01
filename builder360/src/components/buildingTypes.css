@@ -12,10 +12,9 @@
 }
 .buildingtabs {
   margin-bottom: 50px !important;
-
 }
 .buildingtabs .nav-link {
-  border-radius: 0px !important; 
+  border-radius: 0px !important;
   margin-bottom: 50px;
   color: #fff;
   font-size: 17px;
@@ -104,23 +103,20 @@
   transform: translateY(250px);
   -webkit-transform: translateY(65px);
 }
-.containerBuilding{
+.containerBuilding {
   display: none;
 }
 
-
 @media (max-width: 768px) {
-  .buildingtabs{
+  .buildingtabs {
     display: none;
   }
 
   .buildingHead h5 span {
     color: #fd5a32 !important;
-   
   }
-  .containerBuilding{
+  .containerBuilding {
     display: flex;
- 
   }
 
   .content1 {
@@ -128,7 +124,7 @@
     font-size: 14px;
     position: absolute;
     color: #fff;
-    width: 100%;
+    width: 92%;
     height: 190px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
@@ -142,20 +138,22 @@
     opacity: 1;
     position: absolute;
     color: #fff;
-    width: 100%;
+    width: 92%;
     height: 190px;
     text-align: center;
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0.605) !important;
- 
+    display: block;
   }
-  .title h5{
+  .title h5 {
     transform: translateY(250px);
     -webkit-transform: translateY(80px);
   }
   .content1:hover {
     opacity: 1;
-  
+  }
+  .Typcontainer:hover h5 {
+    display: none !important;
   }
   .content1 .text {
     height: 0;
@@ -171,29 +169,28 @@
     margin: 0px 0px 10px 0px !important;
     font-size: 20px !important;
   }
-  .customHead{
+  .customHead {
     padding: 10px 0px 10px 0;
     font-size: 40px !important;
   }
-  .sectionRight h2{
+  .sectionRight h2 {
     padding: 10px 0px 10px 0;
     font-size: 40px !important;
   }
-  .sectionRight h4{
+  .sectionRight h4 {
     padding: 0px 0px 10px 0;
     font-size: 20px !important;
   }
   .panel {
-    width:100%; 
-    height:200px;
+    width: 100%;
+    height: 200px;
     padding: 0px 0px 10px 0;
-    display: flex; 
-    flex-wrap: wrap; 
-}
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.panel > img {
+  .panel > img {
     width: 100%;
     height: 100%;
+  }
 }
-
-} 
