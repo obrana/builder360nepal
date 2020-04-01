@@ -184,7 +184,7 @@ export default class buildingTypes extends Component {
                         src={types.img} />
                     </div>
 
-                  </div>
+                  
                 </div>
               );
             })}
