@@ -2,6 +2,7 @@
     "HouseTypes": [
         {
            "img": "assets/typeA.jpg" ,
+           "img1":"assets/type1.png",
            "h":"A.",
            "title": "The Town House" ,
            "details": "The Town House is a very popular form of housing in Denmark.This is a well executed one and a half or two stories housing type, inspired by classic Danish housing architecture."
