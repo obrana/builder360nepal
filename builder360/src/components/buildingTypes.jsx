@@ -165,24 +165,25 @@ export default class buildingTypes extends Component {
             <h4 className="smallHead">
               SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
               HOUSE TYPES.
-            </h4>
 
-            {data.HouseTypes.map((types, i) => {
-              return (
-                <div>
+                </h4>
+            {
+              data.HouseTypes.map((types, i) => {
+                return (
                   <div>
+                    <div class="title">
+                      <h5><span>{types.h}</span>{types.title}</h5>
+                    </div>
                     <div class="content1">
                       <div class="text">
-                        <h5>
-                          <span>{types.h}</span>
-                          {types.title}
-                        </h5>
+                        <p>{types.details}</p>
                       </div>
-                      <p>{types.details}</p>
                     </div>
                     <div className="panel">
-                      <img class="img-fluid" src={types.img} />
+                      <img class="img-fluid"
+                        src={types.img} />
                     </div>
+
                   </div>
                 </div>
               );
