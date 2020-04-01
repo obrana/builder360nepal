@@ -16,10 +16,8 @@ export default class buildingTypes extends Component {
           <Row className="buildingtabs">
             <Col sm={6} className="image-col">
               <Nav variant="pills">
-                {/* <Nav.Link eventKey="first"> */}
-                {/* 
+                <Nav.Link eventKey="first">
                   <div class="content">
-
                     <div class="text">The Town House</div>
                   </div>
                   <img
@@ -66,8 +64,8 @@ export default class buildingTypes extends Component {
                     src="assets/typeD.jpg"
                     alt=""
                   />
-                </Nav.Link> */}
-                <Nav.Link eventKey="first">
+                </Nav.Link>
+                {/* <Nav.Link eventKey="first">
                   {data.HouseTypes.map((types, i) => {
                     return (
                       <div>
@@ -87,7 +85,7 @@ export default class buildingTypes extends Component {
                       </div>
                     );
                   })}
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Col>
             <Col sm={6}>
@@ -96,9 +94,9 @@ export default class buildingTypes extends Component {
                   SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
                   HOUSE TYPES.
                 </h4>
-                {/* 
-                <Tab.Pane eventKey="first"> */}
-                {/* <h5>
+
+                <Tab.Pane eventKey="first">
+                  <h5>
                     <span>A.</span> The Town House
                   </h5>
                   <p>
@@ -138,10 +136,9 @@ export default class buildingTypes extends Component {
                     Nepalese homes. It has a flat roof and normally built in
                     double stories.
                   </p>
-                </Tab.Pane> */}
-                {/* <Tab.Pane> */}
+                </Tab.Pane>
 
-                <Tab.Pane eventKey="first">
+                {/* <Tab.Pane eventKey="first">
                   {data.HouseTypes.map((types, i) => {
                     return (
                       <div>
@@ -154,7 +151,7 @@ export default class buildingTypes extends Component {
                       </div>
                     );
                   })}
-                </Tab.Pane>
+                </Tab.Pane> */}
               </Tab.Content>
             </Col>
           </Row>
@@ -162,28 +159,27 @@ export default class buildingTypes extends Component {
         {/* Buidling Types Section */}
         <div className="containerBuilding">
           <div className="buildingHead">
-            <h4 className="smallHead">
+            {/* <h4 className="smallHead">
               SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
               HOUSE TYPES.
+            </h4> */}
 
-                </h4>
-            {
-              data.HouseTypes.map((types, i) => {
-                return (
-                  <div>
-                    <div class="title">
-                      <h5><span>{types.h}</span>{types.title}</h5>
+            {data.HouseTypes.map((types, i) => {
+              return (
+                <div className="Typcontainer">
+                  <div class="title">
+                    <h5>
+                      <span>{types.h}</span>
+                      {types.title}
+                    </h5>
+                  </div>
+                  <div class="content1">
+                    <div class="text">
+                      <p>{types.details}</p>
                     </div>
-                    <div class="content1">
-                      <div class="text">
-                        <p>{types.details}</p>
-                      </div>
-                    </div>
-                    <div className="panel">
-                      <img class="img-fluid"
-                        src={types.img} />
-                    </div>
-
+                  </div>
+                  <div className="panel">
+                    <img class="img-fluid" src={types.img} />
                   </div>
                 </div>
               );
