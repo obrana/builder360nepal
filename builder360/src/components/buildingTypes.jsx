@@ -6,10 +6,8 @@ import "./buildingTypes.css";
 import data from "../data.json";
 
 export default class buildingTypes extends Component {
-
   render() {
     return (
-
       <main>
         {/* Building Types Section */}
         <Tab.Container id="building" defaultActiveKey="first">
@@ -70,28 +68,25 @@ export default class buildingTypes extends Component {
                   />
                 </Nav.Link> */}
                 <Nav.Link eventKey="first">
-                  {
-                    data.HouseTypes.map((types, i) => {
-                      return (
+                  {data.HouseTypes.map((types, i) => {
+                    return (
+                      <div>
                         <div>
-
-                          <div>
-                            <div class="content">
-                              <div class="text">
-                                <h6>{types.title}</h6>
-                              </div>
+                          <div class="content">
+                            <div class="text">
+                              <h6>{types.title}</h6>
                             </div>
-                            <img
-                              class="img-fluid"
-                              height="200"
-                              width="200" src={types.img} />
                           </div>
-
+                          <img
+                            class="img-fluid"
+                            height="200"
+                            width="200"
+                            src={types.img}
+                          />
                         </div>
-                      );
-                    })
-                  }
-
+                      </div>
+                    );
+                  })}
                 </Nav.Link>
               </Nav>
             </Col>
@@ -147,21 +142,18 @@ export default class buildingTypes extends Component {
                 {/* <Tab.Pane> */}
 
                 <Tab.Pane eventKey="first">
-                  {
-                    data.HouseTypes.map((types, i) => {
-                      return (
+                  {data.HouseTypes.map((types, i) => {
+                    return (
+                      <div>
                         <div>
-
-                          <div><h5>
+                          <h5>
                             <span>{types.h}</span> {types.title}
                           </h5>
-                            <p>{types.details}</p>
-                          </div>
-
+                          <p>{types.details}</p>
                         </div>
-                      );
-                    })
-                  }
+                      </div>
+                    );
+                  })}
                 </Tab.Pane>
               </Tab.Content>
             </Col>
@@ -173,6 +165,7 @@ export default class buildingTypes extends Component {
             <h4 className="smallHead">
               SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
               HOUSE TYPES.
+
                 </h4>
             {
               data.HouseTypes.map((types, i) => {
@@ -192,10 +185,9 @@ export default class buildingTypes extends Component {
                     </div>
 
                   </div>
-                );
-              })
-            }
-
+                </div>
+              );
+            })}
           </div>
         </div>
       </main>

@@ -9,6 +9,7 @@ import Profile from "../components/profile";
 import BuildingTypes from "../components/buildingTypes";
 import BuildingProcess from "../components/buildingProcess";
 import Collab from "../components/collab";
+import Project from "../components/projects";
 import "./home.css";
 
 export default class Home extends Component {
@@ -18,7 +19,7 @@ export default class Home extends Component {
         <Router>
           <CustomNavbar />
         </Router>
-        <Container className ="home">
+        <Container className="home">
           <Jumbotron>
             <h2 className="introtext">
               A New Generation Of Modular Architecture
@@ -30,6 +31,10 @@ export default class Home extends Component {
           {/* Building Types Section */}
           <BuildingTypes />
           {/* Buidling Types Section */}
+          {/* Projects Section */}
+          <Project />
+          {/* Projects Section */}
+
           {/* Building Process Section */}
           <BuildingProcess />
           {/* Building Process Section */}
@@ -40,7 +45,7 @@ export default class Home extends Component {
         <Router>
           <Footer />
         </Router>
-      </main> 
+      </main>
     );
   }
 }
