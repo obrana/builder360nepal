@@ -1,8 +1,9 @@
 .container {
-  font-family: "platino";
+  font-family: "palatino";
 }
 .customHead {
   padding: 50px 0px 50px 0px;
+ 
 }
 .image-col {
   padding: 0px !important;
@@ -39,6 +40,7 @@
 .smallHead {
   margin: 20px 0px 50px;
   font-size: 34px !important;
+  color: #434444;
 }
 .buildingtabs h5 span {
   color: #fd5a32 !important;
