@@ -20,6 +20,7 @@ export default class Profile extends Component {
                   <Nav variant="pills" className="flex-column">
                     <Nav.Item>
                       <Nav.Link eventKey="first">The Concept</Nav.Link>
+                
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Sustainability</Nav.Link>
