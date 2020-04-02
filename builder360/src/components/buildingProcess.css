@@ -19,7 +19,7 @@
 }
 .processTitle {
   font-size: 17px !important;
-  color: black;
+  color: tomato;
 }
 .card-text {
   font-size: 15px !important;
@@ -33,3 +33,4 @@
 #subTitle {
   font-size: 30px;
 }
+
