@@ -19,7 +19,7 @@ export default class Home extends Component {
         <Router>
           <CustomNavbar />
         </Router>
-        <Jumbotron className="mobcontainer">
+        <Jumbotron>
           <h2 className="introtext">
             A New Generation Of Modular Architecture
           </h2>

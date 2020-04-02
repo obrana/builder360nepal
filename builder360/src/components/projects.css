@@ -41,5 +41,9 @@
   }
   .cardOverlay {
     margin-right: 0px !important;
+    border-radius: 0px !important;
+  }
+  .card-img-top {
+    border-radius: 0px !important;
   }
 }
