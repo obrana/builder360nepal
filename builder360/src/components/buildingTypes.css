@@ -4,6 +4,7 @@
 .customHead {
   padding: 50px 0px 50px 0px;
 }
+
 .image-col {
   padding: 0px !important;
 }
@@ -12,7 +13,6 @@
 }
 .buildingtabs {
   margin-bottom: 0px !important;
-  height: 350px;
 }
 .buildingtabs .nav-link {
   border-radius: 0px !important;

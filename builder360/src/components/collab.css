@@ -20,6 +20,7 @@ textarea.form-control {
   border-radius: 0px !important;
   border: 0 none !important;
   font-size: 17px;
+  float: left;
 }
 .collabHead {
   font-size: 34px !important;
