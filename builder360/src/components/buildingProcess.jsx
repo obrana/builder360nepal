@@ -16,7 +16,7 @@ export default class buildingProcess extends Component {
             <h2 className="customHead">Building Process</h2>
             <p id="subTitle">A high performance bio-based building system</p>
           </Col>
-          <Col md={8}>
+          <Col md={10}>
             <CardGroup>
               <Card>
                 <Card.Img variant="top" src="assets/processA.jpg" />
