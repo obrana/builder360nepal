@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 import { Jumbotron, Button, Col, Row, Container } from "react-bootstrap";
 import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
+import Card, { CardBody } from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
-
+import data from "../data.json";
 import "./buildingProcess.css";
+import CardGroup from "react-bootstrap/CardGroup";
 
 export default class buildingProcess extends Component {
   render() {
     return (
       <main>
-        {/* Building Process Section */}
+        {/* Building Process Section
         <Row className="processA">
-          <Col  md={6}>
+          <Col md={6}>
             <Image src="assets/processA.jpg"></Image>
           </Col>
 
@@ -20,12 +21,12 @@ export default class buildingProcess extends Component {
             <h2 className="customHead">Building Process</h2>
             <p id="subTitle">A high performance bio-based building system</p>
           </Col>
-          
+
         </Row>
         <Row className="processB">
           <Col md={6}>
             <CardColumns>
-              <Card>
+              {/* <Card>
                 <Card.Body>
                   <Card.Title>Affordable</Card.Title>
                   <Card.Text>
@@ -65,14 +66,51 @@ export default class buildingProcess extends Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </CardColumns>
+           */}
+
+
+
+
+            {/* </CardColumns>
           </Col>
 
           <Col md={6}>
             <Image src="assets/processB.jpg" />
           </Col>
-        </Row>
+        </Row> */} 
         {/* Building Process Section */}
+
+
+        {data.Process.map((process, i) => {
+                return (
+                  <div className="processContainer">
+                      <Row className="processB">
+          <Col md={6}>
+                    <CardGroup>
+                      <Card>
+                        <Card.Body>
+                          <div className="processTitle">{process.title}</div>
+                          <Card.Text>{process.details}</Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </CardGroup>
+                    </Col>
+                    </Row>
+                    <Row className="processB">
+          <Col md={6}>
+                    <CardGroup>
+                      <Card>
+                        <Card.Body>
+                          <div className="processTitle">{process.title}</div>
+                          <Card.Text>{process.details}</Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </CardGroup>
+                    </Col>
+                    </Row>
+                  </div>
+                );
+              })}
       </main>
     );
   }

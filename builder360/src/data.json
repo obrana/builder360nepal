@@ -28,16 +28,29 @@
          }
     ],
 
-    "Projects":[
+    "Process":[
         {
-            "img":"assets/typeA.jpg"
-
+            "title": "Affordable",
+            "details":"A cost-effective and digital building system developed for high precision and rapid assembly. Keep track of building costs with the buildr plug-in software."
         },
         {
-            "img":"assets/typeB.jpg"
+            "title": "Renewable",
+            "details":"Building pods are constructed from only renewable resources. Choose from wood or straw fiber boards and store huge amounts of carbon in your house."
         },
         {
-            "img":"assets/typeC.jpg"
+            "title": "Natural",
+            "details":"Natural materials has great insulation properties and emit no hazardous chemicals. This provides a fresh and healthy indoor air climate in your house."
+        },
+        {
+            "title": "Buildable",
+            "details": "Modular and intelligent building pods are self locating and easy to install. Parts are coded for fast and simple installation with a step-by-step instruction manual."
+        },
+        {
+            "image":[
+                
+                    "assets/processA.jpg",
+                    "assets/processB.jpg"
+            ]
         }
     ]
    
