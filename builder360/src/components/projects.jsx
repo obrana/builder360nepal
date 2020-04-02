@@ -13,22 +13,24 @@ export default class Project extends Component {
           <h2 className="customHead">Projects</h2>
 
           <CardGroup>
-            <Card>
+            <Card className="cardOverlay">
               <Card.Img variant="top" src="assets/pro1.jpg" />
               <Card.Body>
-                <Card.Title>Himshikhar Agro Farm</Card.Title>
+                <Card.Title className="textOverlay">
+                  Himshikhar Agro Farm
+                </Card.Title>
               </Card.Body>
             </Card>
-            <Card>
+            <Card className="cardOverlay">
               <Card.Img variant="top" src="assets/pro2.jpg" />
               <Card.Body>
-                <Card.Title>Project 2</Card.Title>
+                <Card.Title className="textOverlay">In Progress...</Card.Title>
               </Card.Body>
             </Card>
-            <Card>
+            <Card className="cardOverlay card-lastchild">
               <Card.Img variant="top" src="assets/pro3.jpg" />
               <Card.Body>
-                <Card.Title>Project 3</Card.Title>
+                <Card.Title className="textOverlay">In Progress...</Card.Title>
               </Card.Body>
             </Card>
           </CardGroup>
