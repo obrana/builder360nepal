@@ -20,10 +20,12 @@ textarea.form-control {
   border-radius: 0px !important;
   border: 0 none !important;
   font-size: 17px;
+  float: left;
 }
 .collabHead {
   font-size: 34px !important;
   margin-bottom: 50px;
+  text-align: left;
 }
 .form-control {
   font-size: 17px !important;
@@ -34,11 +36,15 @@ textarea.form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.collab .col-md-6 img {
+.collab .col-md-6 {
   text-align: center;
+  margin: auto;
 }
 @media (max-width: 768px) {
   .form-control {
     width: 100% !important ;
+  }
+  .collabHead {
+    margin-top: 30px;
   }
 }

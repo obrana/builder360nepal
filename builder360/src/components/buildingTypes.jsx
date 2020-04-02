@@ -96,7 +96,7 @@ export default class buildingTypes extends Component {
                 </h4>
 
                 <Tab.Pane eventKey="first">
-                  <h5> 
+                  <h5>
                     <span>A.</span> The Town House
                   </h5>
                   <p>
@@ -159,10 +159,10 @@ export default class buildingTypes extends Component {
         {/* Buidling Types Section */}
         <div className="containerBuilding">
           <div className="buildingHead">
-              <h4 className="smallHead">
-                SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
-                HOUSE TYPES.
-              </h4>
+            {/* <h4 className="smallHead">
+              SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
+              HOUSE TYPES.
+            </h4> */}
 
             {data.HouseTypes.map((types, i) => {
               return (

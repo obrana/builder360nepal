@@ -2,6 +2,11 @@
   margin-right: 20px;
   overflow: hidden !important;
 }
+.projectHead {
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+}
 .card-lastchild {
   margin-right: 0px !important;
 }
@@ -41,5 +46,9 @@
   }
   .cardOverlay {
     margin-right: 0px !important;
+    border-radius: 0px !important;
+  }
+  .card-img-top {
+    border-radius: 0px !important;
   }
 }

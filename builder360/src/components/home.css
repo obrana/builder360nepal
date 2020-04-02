@@ -24,15 +24,20 @@ body {
   margin-left: 0px !important;
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .introtext {
     width: 200px;
     font-size: 34px;
+  }
+  .jumbotron {
+    max-width: 100%;
+    background-size: cover !important;
   }
 }
 @media (max-width: 375px) {
   .jumbotron {
     max-width: 100%;
+    background-size: cover !important;
   }
   .introtext {
     width: 100%;
@@ -40,8 +45,5 @@ body {
   }
   .home {
     max-width: 100% !important;
-  }
-  .jumbotron {
-    background-size: cover !important;
   }
 }
