@@ -96,7 +96,7 @@ export default class buildingTypes extends Component {
                 </h4>
 
                 <Tab.Pane eventKey="first">
-                  <h5>
+                  <h5> 
                     <span>A.</span> The Town House
                   </h5>
                   <p>
@@ -177,15 +177,10 @@ export default class buildingTypes extends Component {
                     <div class="text">
                       <p>{types.details}</p>
                     </div>
-<<<<<<< HEAD
-
-                  
-=======
                   </div>
                   <div className="panel">
                     <img class="img-fluid" src={types.img} />
                   </div>
->>>>>>> 502963689cab7ba5ef1aac6d8f0ccc1a2c7fcd86
                 </div>
               );
             })}
