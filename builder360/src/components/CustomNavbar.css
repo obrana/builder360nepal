@@ -15,7 +15,8 @@ nav.navbar,
   font-weight: 500;
   font-size: 19px;
 }
-.fab {
+.fab,
+.social .fas {
   color: #fd5a32;
 }
 .nav-link:hover {
@@ -33,7 +34,7 @@ nav.navbar,
   border-radius: 0px !important;
   border: 0 none !important;
 }
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   outline: none;
 }
 .navbar-dark .navbar-toggler-icon {
