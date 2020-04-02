@@ -8,6 +8,8 @@
   text-transform: uppercase;
   height: 600px;
   border-radius: 0px !important;
+  max-width: 88%;
+  margin: auto;
 }
 .introtext {
   width: 550px;
@@ -28,6 +30,9 @@
   }
 }
 @media (max-width: 375px) {
+  .jumbotron {
+    max-width: 100%;
+  }
   .introtext {
     width: 100%;
     font-size: 30px;
