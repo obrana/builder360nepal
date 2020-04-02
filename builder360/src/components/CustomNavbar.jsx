@@ -54,17 +54,15 @@ export default class CustomNavbar extends Component {
                   Contact Us
                 </Link>
               </Nav.Link>
+              <Nav.Link>
+                <i
+                  class="fas fa-phone-square-alt
+"
+                ></i>{" "}
+                0097714154259
+              </Nav.Link>
 
               <div className="social">
-                <Nav.Link>
-                  <Link to="#">
-                    <i
-                      class="fas fa-phone-square-alt
-"
-                    ></i>{" "}
-                    0097714154259
-                  </Link>
-                </Nav.Link>
                 <Nav.Link>
                   <Link to="#">
                     <i class="fab fa-facebook-f"></i>

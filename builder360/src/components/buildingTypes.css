@@ -5,6 +5,7 @@
   padding: 50px 0px 50px 0px;
  
 }
+
 .image-col {
   padding: 0px !important;
 }
@@ -13,7 +14,6 @@
 }
 .buildingtabs {
   margin-bottom: 0px !important;
-  height: 350px;
 }
 .buildingtabs .nav-link {
   border-radius: 0px !important;
@@ -83,7 +83,7 @@
   position: absolute;
   color: #fff;
   width: 200px;
-  height: 153px;
+  height: 152px;
   -webkit-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;

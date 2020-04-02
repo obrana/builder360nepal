@@ -49,4 +49,5 @@
 .tab-content {
   font-size: 17px !important;
 }
-
+@media (max-width: 768px) {
+}

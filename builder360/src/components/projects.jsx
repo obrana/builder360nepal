@@ -10,7 +10,7 @@ export default class Project extends Component {
     return (
       <main>
         <div id="projects">
-          <h2 className="customHead">Projects</h2>
+          <h2 className="projectHead">Projects</h2>
 
           <CardGroup>
             <Card className="cardOverlay">
