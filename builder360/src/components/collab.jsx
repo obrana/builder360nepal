@@ -24,7 +24,7 @@ export default class collab extends Component {
                 <Form.Control type="email" placeholder="Name" />
               </Form.Group>
               <Form.Group controlId="ControlInput">
-                <Form.Control  type="email" placeholder="Email Address" />
+                <Form.Control type="email" placeholder="Email Address" />
               </Form.Group>
               <Form.Group controlId="ControlInput">
                 <Form.Control type="email" placeholder="Address" />
