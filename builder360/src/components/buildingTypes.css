@@ -22,9 +22,7 @@
   margin-right: 60px;
   padding: 0px !important;
 }
-.buildingtabs .nav-link:hover {
-  background: rgba(0, 0, 0, 0.605) !important;
-}
+
 .buildingtabs .nav-pills .nav-link.active {
   background: none;
   border-bottom: 4px solid #fd5a32;
@@ -83,7 +81,7 @@
   position: absolute;
   color: #fff;
   width: 200px;
-  height: 150px;
+  height: 153px;
   -webkit-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
