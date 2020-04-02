@@ -1,17 +1,17 @@
-.card {
-  padding-right: 20px;
+#projects .card {
+  margin-right: 20px;
+  overflow: hidden;
 }
 #projects {
   margin-bottom: 70px;
 }
-.card-img-top {
+#projects .card-img-top {
   transition: 1s;
 }
-.card-img-top:hover {
+#projects .card-img-top:hover {
   transform: scale(1.1);
-  z-index: 999;
 }
-.card-title {
+#projects .card-title {
   font-size: 24px !important;
   position: absolute;
   top: 40%;
@@ -22,4 +22,6 @@
   text-transform: uppercase;
   font-weight: 700;
   z-index: 999;
+  background: rgba(23, 22, 22, 0.605);
+  padding: 10px 0px;
 }
