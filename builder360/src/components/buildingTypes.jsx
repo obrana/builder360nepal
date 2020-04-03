@@ -159,10 +159,10 @@ export default class buildingTypes extends Component {
         {/* Buidling Types Section */}
         <div className="containerBuilding">
           <div className="buildingHead">
-            {/* <h4 className="smallHead">
+            <h4 className="smallHead">
               SHORTEN THE DESIGN PROCESS AND CHOOSE ON OF OUR ARCHITECTURAL
               HOUSE TYPES.
-            </h4> */}
+            </h4>
 
             {data.HouseTypes.map((types, i) => {
               return (
