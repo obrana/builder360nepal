@@ -6,6 +6,7 @@
   height: auto;
   background-size: cover !important;
   width: 100%;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
 .sectionRight {
   background: rgba(0, 0, 0, 0.605);
