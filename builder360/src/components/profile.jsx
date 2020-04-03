@@ -19,27 +19,12 @@ export default class Profile extends Component {
                 <Col sm={3}>
                   <Nav variant="pills" className="flex-column">
                     <Nav.Item>
-                      {/* <div id="info">
-                        <div id="info-line">
-                          <div></div>
-                        </div>
-                      </div> */}
                       <Nav.Link eventKey="first">The Concept</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      {/* <div id="info">
-                        <div id="info-line">
-                          <div></div>
-                        </div>
-                      </div> */}
                       <Nav.Link eventKey="second">Sustainability</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      {/* <div id="info">
-                        <div id="info-line">
-                          <div></div>
-                        </div>
-                      </div> */}
                       <Nav.Link eventKey="third">Surroundings</Nav.Link>
                     </Nav.Item>
                   </Nav>

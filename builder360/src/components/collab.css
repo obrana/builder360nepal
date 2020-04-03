@@ -32,7 +32,7 @@ textarea.form-control {
 .form-control {
   font-size: 17px !important;
 }
-.collaborateHead{
+.collaborateHead {
   font-size: 40px;
   margin-bottom: 50px;
   text-align: left;
@@ -49,14 +49,15 @@ textarea.form-control {
 }
 @media (max-width: 768px) {
   .form-control {
-    width: 100% !important ;
+    width: 90% !important ;
+    margin: auto;
   }
   .collabHead {
     margin-top: 30px;
   }
 }
 @media (max-width: 375px) {
-  .collaborateHead{
+  .collaborateHead {
     text-align: center;
     font-size: 30px;
   }
@@ -64,7 +65,7 @@ textarea.form-control {
     padding-left: 1rem;
     font-size: 20px !important;
   }
-  .btn-primary{
+  .btn-primary {
     margin-left: 1rem;
   }
-  }
+}
