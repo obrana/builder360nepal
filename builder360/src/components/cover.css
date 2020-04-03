@@ -1,4 +1,4 @@
-.slide-container {
+/* .slide-container {
   width: 100%;
   margin: auto;
   background: black;
@@ -8,10 +8,6 @@ h3 {
   text-align: center;
 }
 
-.react-slideshow-container .nav {
-  display: none;
-}
-
 .image-container img {
   width: 100%;
   height: 100vh !important;
@@ -19,14 +15,69 @@ h3 {
 
 }
 
+*/
+.image-container img {
+	filter: brightness(50%);
+  }
+.slide-container {
+	width: 100%;
+	margin: auto;
+	background: black;
+  }
+.react-slideshow-container .nav {
+	display: none;
+  }
 .react-slideshow-container + div.indicators {
   display: none;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
-}
 
-#banner {
+} 
+.slide-container {
+	width: 100%;
+	margin: auto; }
+  
+  h3 {
+	text-align: center; }
+  
+  .each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	height: 300px;
+  }
+  
+  .each-slide span {
+	padding: 20px;
+	font-size: 20px;
+	background: #efefef;
+	text-align: center;
+  }
+  
+  .each-fade {
+	display: flex;
+  }
+  
+  .each-fade .image-container {
+	width: 75%;
+	overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+	width: 100%;
+	
+  }
+  
+  .each-fade h2 {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background: #adceed;
+  }
+  
+
+.coverBanner {
     text-align: center;
     position: fixed;
     top: 30%;
@@ -108,7 +159,7 @@ h3 {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 991px) {
-#banner{
+.coverBanner{
 	text-align: center;
     position: fixed;
     top: 30%;
@@ -120,4 +171,29 @@ h3 {
 }
   
 }
+@media (max-width:375px){
+	.coverBanner{
+		text-align: center;
+		position: absolute;
+		left: 0% !important;
+		color: #fff;
+		z-index: 2;
+	}
+	#banner{
+		width: 50% !important;
+		left: 6% !important;
+		position: absolute;
+	}
+
+}
+@media (max-width:720px){
+
+	#banner{
+		width: 50% !important;
+		left: 6% !important;
+		position: absolute;
+	}
+
+}
+
 
