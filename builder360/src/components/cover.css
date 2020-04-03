@@ -186,4 +186,14 @@ h3 {
 	}
 
 }
+@media (max-width:720px){
+
+	#banner{
+		width: 50% !important;
+		left: 6% !important;
+		position: absolute;
+	}
+
+}
+
 
