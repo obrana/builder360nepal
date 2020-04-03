@@ -22,7 +22,7 @@ export default class cover extends Component {
           <img id="banner" src="assets/covertext.png" alt="" />
         </div>
         <div id="scroll-info">
-          <a href="/home">Scroll</a>
+          <a href="/home">ENTER</a>
           <div id="scroll-info-line">
             <div></div>
           </div>
