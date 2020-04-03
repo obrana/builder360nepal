@@ -33,6 +33,9 @@
   font-size: 17px;
   letter-spacing: 0.5px;
 }
+.profiletabs .nav-item {
+  margin-bottom: 0px !important;
+}
 .profiletabs .nav-link:hover {
   color: #fff !important;
   text-decoration: none !important;
@@ -40,9 +43,31 @@
 .profiletabs .nav-pills .nav-link.active {
   background: #fd5a32 !important;
   border-left: 2px solid #fd5a32;
-  /* border-bottom: 2px solid #fd5a32; */
   border-radius: 0px !important;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
   font-style: normal !important;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .row {
   margin-right: 0px !important;
@@ -54,73 +79,12 @@
   font-size: 17px !important;
 }
 
-/* #info {
-  position: absolute;
-  width: 100px;
-  height: 2px;
-  z-index: 1;
-  overflow: hidden;
-}
-
-#info-line {
-  position: absolute;
-  width: 80px;
-  height: 2px;
-  overflow: hidden;
-  z-index: 1;
-}
-#info-line div {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 80px;
-  height: 2px;
-  background-color: #fd5a32;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: scroll-info-line;
-  animation-name: scroll-info-line;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-}
-@-webkit-keyframes scroll-info-line {
-  from,
-  5% {
-    width: 0px;
-  }
-  33%,
-  66% {
-    left: 0px;
-    width: 80px;
-  }
-  95%,
-  to {
-    left: 80px;
-  }
-}
-
-@keyframes scroll-info-line {
-  from,
-  5% {
-    width: 0px;
-  }
-  33%,
-  66% {
-    left: 0px;
-    width: 80px;
-  }
-  95%,
-  to {
-    left: 80px;
-  }
-} */
 @media (max-width: 375px) {
   .sectionRight h2 {
     font-size: 10px !important;
+  }
+  #left-tabs-example-tab-first {
+    margin-bottom: 13px !important;
   }
 }
 
@@ -132,5 +96,8 @@
 @media (max-width: 768px) {
   .col-md-4 {
     display: none;
+  }
+  #left-tabs-example-tab-first {
+    margin-bottom: -10px;
   }
 }
