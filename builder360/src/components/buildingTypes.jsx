@@ -11,7 +11,7 @@ export default class buildingTypes extends Component {
       <main>
         {/* Building Types Section */}
         <Tab.Container id="building" defaultActiveKey="first">
-          <h2 className="customHead">Building Types</h2>
+          <h2 className="typesHead">Building Types</h2>
 
           <Row className="buildingtabs">
             <Col sm={6} className="image-col">

@@ -3,9 +3,10 @@
   overflow: hidden !important;
 }
 .projectHead {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 50px;
   text-align: left;
+  text-transform: uppercase;
 }
 .card-lastchild {
   margin-right: 0px !important;
@@ -52,3 +53,8 @@
     border-radius: 0px !important;
   }
 }
+@media (max-width: 375px) {
+  .projectHead{
+    text-align: center;
+  }
+  }

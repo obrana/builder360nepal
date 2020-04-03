@@ -23,14 +23,20 @@ textarea.form-control {
   float: left;
 }
 .collabHead {
-  font-size: 34px !important;
+  font-size: 30px !important;
   margin-bottom: 50px;
   text-align: left;
+  text-transform: uppercase;
 }
 .form-control {
   font-size: 17px !important;
 }
-
+.collaborateHead{
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: left;
+  text-transform: uppercase;
+}
 .form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
@@ -48,3 +54,16 @@ textarea.form-control {
     margin-top: 30px;
   }
 }
+@media (max-width: 375px) {
+  .collaborateHead{
+    text-align: center;
+    font-size: 30px;
+  }
+  .collabHead {
+    padding-left: 1rem;
+    font-size: 20px !important;
+  }
+  .btn-primary{
+    margin-left: 1rem;
+  }
+  }
