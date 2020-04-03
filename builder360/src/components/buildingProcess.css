@@ -1,9 +1,7 @@
-.processA h2 {
-  padding: 0px 0px 50px 0px !important;
+#buildingProcess{
+  margin-bottom: 50px;
 }
-.processA {
-  margin-bottom: 40px;
-}
+
 .card-columns .card {
   margin-bottom: 0.75rem;
   border-bottom: 2px solid #fd5a32 !important;
@@ -27,10 +25,10 @@
   font-size: 15px !important;
 }
 
-.customHead {
+.processHead {
   font-size: 40px;
   text-transform: uppercase;
- 
+
 }
 #subTitle {
   font-size: 28px;
@@ -41,14 +39,26 @@
   background-color: transparent;
   color: #434444;
   text-transform: uppercase;
- 
   border-radius: 0px !important;
   max-width: 100%;
 }
 .pText {
-  width: 550px;
+  width: 100%;
   font-size: 30px;
   font-family: "palatino";
   border-left: 2px solid #fd5a32;
   padding-left: 20px;
 }
+.col-md-6{
+  padding:0px !important;
+}
+@media (max-width: 375px) {
+  .processHead{
+    text-align: center;
+    font-size: 30px;
+  }
+  .pText{
+    font-size: 20px;
+     
+  }
+  }

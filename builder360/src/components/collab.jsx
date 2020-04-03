@@ -10,7 +10,7 @@ export default class collab extends Component {
     return (
       <main>
         {/* Collab Section */}
-        <h2 className="customHead">Collaborate with us</h2>
+        <h2 className="collaborateHead">Collaborate with us</h2>
 
         <Row className="collab">
           <Col md={6}>

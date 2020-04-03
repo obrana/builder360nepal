@@ -46,4 +46,7 @@ body {
   .home {
     max-width: 100% !important;
   }
+  .container{
+    padding:0px !important;
+  }
 }

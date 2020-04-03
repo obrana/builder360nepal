@@ -9,10 +9,10 @@ import CardGroup from "react-bootstrap/CardGroup";
 export default class buildingProcess extends Component {
   render() {
     return (
-      <main>
+      <main id="buildingProcess">
         <Row className="processA">
           <Col md={6}>
-            <h2 className="customHead">Building Process</h2>
+            <h2 className="processHead">Building Process</h2>
             {/* <p id="subTitle">A high performance bio-based building system</p> */}
           </Col>
           <Col md={6}>
@@ -23,14 +23,18 @@ export default class buildingProcess extends Component {
             </div>
           </Col>
         </Row>
+        <Row>
+          <div>
+            <img class="img-fluid" width="100%" src="assets/processA.jpg"/>
+          </div>
+        </Row>
         <Row className="processB">
-          {data.Process.map((process, i) => {
+          {data.Process.map((process, i) => { 
             return (
               <Col md={3}>
                 <CardGroup>
                   <Card>
                     <Card.Body>
-                
                       <div className="processTitle">{process.title}
                       </div>
                       <Card.Text>{process.details}</Card.Text>

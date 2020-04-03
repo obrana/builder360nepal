@@ -10,8 +10,8 @@ export default class Profile extends Component {
       <main>
         {/* Profile Section */}
         <div id="profile" className="row sectionFirst">
-          <div className="col-md-6"></div>
-          <div className="col-md-6 sectionRight">
+          <div className="col-md-4"></div>
+          <div className="col-md-8 sectionRight">
             <h2>Builder 360 Nepal</h2>
             <h4>Affordable, Renewable, Natural, Buildable</h4>
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -20,7 +20,6 @@ export default class Profile extends Component {
                   <Nav variant="pills" className="flex-column">
                     <Nav.Item>
                       <Nav.Link eventKey="first">The Concept</Nav.Link>
-                
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Sustainability</Nav.Link>
@@ -30,7 +29,7 @@ export default class Profile extends Component {
                     </Nav.Item>
                   </Nav>
                 </Col>
-                <Col sm={9}>
+                <Col sm={8}>
                   <Tab.Content>
                     <Tab.Pane eventKey="first">
                       Builder 360 is a concept designed to build sustainable and
